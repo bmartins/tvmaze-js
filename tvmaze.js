@@ -1,3 +1,9 @@
+/***********************************************************
+Author: Bruno Martins <bscmartins@gmail.com
+
+https://github.com/bmartins/tvmaze-js
+***********************************************************/
+
 (function(exports) {
 
 	this.http_code = '';

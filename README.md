@@ -33,7 +33,7 @@ updates(callback)
 ```
 
 ##### Notice
-For all functions, if you don't pass a callback, the http request will be done syncrhonously and the result will be returned directly by the function
+For all functions, if you don't pass a callback, the http request will be done synchronously and the result will be returned directly by the function
 
 ```
 var show = tvmaze.shows(4);

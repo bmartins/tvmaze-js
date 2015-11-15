@@ -1,6 +1,5 @@
 <html>
 <head
-<script src="ItemManager.js"></script>
 <script src="tvmaze.js"></script>
 </head>
 <body>
@@ -8,9 +7,8 @@
 <script>
 
 var tvmaze = new TVMaze();
-//tvmaze.shows(1, function(show) { alert(show.name) });
 
-var s = tvmaze.show_episode_list(4, true,  function(s) { alert( s[2]['name'])});
+tvmaze.show_episode_list(4, true,  function(s) { alert( s[2]['name'])});
 
 </script>
 </body>
