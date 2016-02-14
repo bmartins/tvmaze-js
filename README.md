@@ -17,6 +17,7 @@ shows(show_id, callback)
 show_search(keyword, callback)
 show_single_search(keyword, callback)
 show_lookup(id, id_type, callback) // id_type must be 'tvrage' or 'thetvdb'
+show_seasons(id)
 show_episode_list(id, show_specials, callback) //show_specials is a boolean
 show_cast(id, callback)
 show_akas(id, callback)

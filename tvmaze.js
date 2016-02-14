@@ -57,7 +57,9 @@ https://github.com/bmartins/tvmaze-js
 		}
 		return request(this, 'shows/' + show_id + '/episodes?specials=' + specials, callback);
 	};	
-
+    TVMaze.prototype.show_seasons = function(show_id) {
+		return request(this, 'shows/' + show_id + '/seasons');
+	};
 	TVMaze.prototype.show_cast = function(id,callback) {
 		return request(this, 'shows/' + id + '/cast', callback);
 	};	
